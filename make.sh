@@ -1,3 +1,4 @@
 #!/bin/bash
 
-pdflatex -halt-on-error -output-directory ~/P1836 -interaction=nonstopmode P1836.tex
+mkdir -p Out
+pdflatex -halt-on-error -output-directory Out -jobname=P1836 -interaction=nonstopmode document.tex 
